@@ -40,7 +40,7 @@ const bodyStyles = css`
    background-color: ${(props) => props.theme.body};
    color: ${(props) => props.theme.text};
    line-height: 1.6;
-   max-width: 1600px;
+   max-width: auto;
    font-weight: 400;
    margin: auto;
    transition: ${misc.transition.ease};

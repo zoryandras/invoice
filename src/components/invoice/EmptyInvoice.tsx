@@ -7,7 +7,7 @@ const EmptyInvoice = () => {
       <EmptyInvoiceWrap>
          <div className='container'>
             <img src='/assets/illustration-empty.svg' alt='' />
-            <h2>Oops..., Invoice cannot be found</h2>
+            <h2>Oopsie-daisy! Invoice cannot be found</h2>
             <Link to='/'>
                <button className='btn paid'>Back to Invoices</button>
             </Link>
