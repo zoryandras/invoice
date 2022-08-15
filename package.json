@@ -1,6 +1,7 @@
 {
   "name": "invoice",
   "version": "0.1.0",
+  "homepage": "https://zoryandras.github.io/invoice",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.4",
@@ -29,6 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -50,6 +53,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^4.0.0"
   }
 }
