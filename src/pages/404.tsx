@@ -15,7 +15,7 @@ const NotFound = () => {
       >
          <Seo title='404' />
          <div className='container'>
-            <h1>Oops..., Page cannot be found</h1>
+            <h1>Oopsie-daisy! Page cannot be found</h1>
 
             <Link to='/'>
                <button className='paid'>Back to Home</button>
