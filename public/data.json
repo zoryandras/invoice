@@ -1,6 +1,6 @@
 {
    "currentUser": {
-      "image": "/assets/image-andras.jpg",
+      "image": "../../assets//image-andras.jpg",
       "name": "Andras Varga",
       "username": "zoryandras"
    },

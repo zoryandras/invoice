@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const slide = {
    exit: {
       opacity: 0,
@@ -24,3 +26,5 @@ export const slide = {
       },
    },
 };
+
+

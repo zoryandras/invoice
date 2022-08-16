@@ -5,7 +5,7 @@ import { Invoice } from '../../types';
 import { validate } from '../../utils/validate';
 import { useAppDispatch } from '../../app/hooks';
 import { toggleInvoiceModal } from '../../features/global/globalSlice';
-import { saveInvoice } from '../../features/invoice/invoiceSlice';
+import { saveInvoice } from '../../features/invoice/invoiceSlice'; 
 import {
    FormButtons,
    InvoiceFormRoot,
